@@ -3,16 +3,38 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/solar/bootswatch";
 
+
+html{
+  overflow-x: hidden
+};
 .page-footer{
     background: #222;
 }
-
+.dropdown-menu{
+  a:hover{
+    color:white;
+    background-color: #23CEAF;
+  }
+}
 .card-deck
 {
     width: 98%;
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.card{
+  position: relative;
+  overflow: hidden;
+}
+.card img{
+  transition: all ls ease-in-out;
+}
+.card:hover img{
+  transform: scale(1,2);
+}
+
+
 #one 
 {
   text-align: center;
