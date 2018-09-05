@@ -1,0 +1,68 @@
+@import 'custom';
+@import "~bootswatch/dist/solar/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/solar/bootswatch";
+
+.page-footer{
+    background: #222;
+}
+
+.card-deck
+{
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#one 
+{
+  text-align: center;
+  
+}
+#two
+{
+  text-align: center;
+  
+}
+#three 
+{
+  text-align: center;
+}
+#four
+{
+  text-align: center;
+  
+}
+// #formm 
+// {
+//   text-align: center;
+//   margin-top: 5px;
+//   margin-bottom: 5px;
+// }
+#imp
+{
+    margin-left: 10px;
+    
+    margin-right: 10px;
+    
+}
+
+.thumbnail {
+  position: relative;
+}
+
+// .carousel-item.active,
+// .carousel-item-next,
+// .carousel-item-prev {
+//   display: block;
+// }
+
+.carousel {
+ margin-top: 4.3rem;    
+}
+
+.navbar {
+  top:0px;
+  z-index:10;
+  background:#fff;
+  width:100%;
+}
